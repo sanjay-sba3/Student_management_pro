@@ -1,0 +1,5 @@
+Django
+djangorestframework
+Markdown
+djangorestframework-simplejwt
+mysqlclient

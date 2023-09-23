@@ -77,7 +77,7 @@ class StudentViews(GenericAPIView):
         try:
             data = getLoginUser(request)
             print(data)
-            return Response('hi')
+            return Response('data updated')
 
             # if Student.objects.filter(id = request.get('id')).exists():
             #     student_serilizer = StudentSerializer(Student.objects.filter(id =request.get('id')))
